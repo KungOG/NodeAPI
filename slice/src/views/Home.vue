@@ -18,6 +18,8 @@ export default {
   </script>
   <style lang="scss">
 
+@import '../scss/components';
+
   %center {
     display: flex;
     justify-content: center;
@@ -37,19 +39,6 @@ export default {
         &:last-child {
           align-items: flex-end;
           padding: 1rem;
-        }
-        a {
-          &.btn {
-            width: 100%;
-            background: #55B68D;
-            @extend %center;
-            height: 3rem;
-            border-radius: 3px;
-            color: white;
-            text-decoration: none;
-            font-weight: 600;
-            text-transform: uppercase;
-          }
         }
       }
   }
