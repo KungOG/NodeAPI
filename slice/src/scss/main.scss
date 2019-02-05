@@ -1,0 +1,10 @@
+@import './typography';
+$background-color: #eee;
+
+body {
+    margin: 0;
+}
+#app {
+    height: 100vh;
+    background: $background-color;
+}
